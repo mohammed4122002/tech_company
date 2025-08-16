@@ -28,3 +28,14 @@
     flex-direction: column;
     gap: 50px;
 }
+.img{
+     animation: move 3s infinite ease alternate;
+}
+@keyframes move {
+    from{
+        transform: translateY(-10px);
+    }
+    to{
+        transform: translateY(10px)  ;
+    }
+}
